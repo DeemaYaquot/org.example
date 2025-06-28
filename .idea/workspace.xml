@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b6eed70-59aa-441a-96d2-130ac7dc07e2" name="Changes" comment="Login Tests on &quot;https://the-internet.herokuapp.com/login&quot;">
-      <change afterPath="$PROJECT_DIR$/src/test/java/testPackage/SwagLabsTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testPackage/LocatorsTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testPackage/LocatorsTests.java" afterDir="false" />
+    <list default="true" id="7b6eed70-59aa-441a-96d2-130ac7dc07e2" name="Changes" comment="Login tests for Swag Labs">
+      <change beforePath="$PROJECT_DIR$/src/test/java/testPackage/SwagLabsTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testPackage/SwagLabsTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,7 +192,15 @@
       <option name="project" value="LOCAL" />
       <updated>1751134436990</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Login tests for Swag Labs">
+      <option name="closed" value="true" />
+      <created>1751146424234</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1751146424234</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -212,6 +218,7 @@
     <MESSAGE value="2nd commit" />
     <MESSAGE value="Dependencies" />
     <MESSAGE value="Login Tests on &quot;https://the-internet.herokuapp.com/login&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Login Tests on &quot;https://the-internet.herokuapp.com/login&quot;" />
+    <MESSAGE value="Login tests for Swag Labs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Login tests for Swag Labs" />
   </component>
 </project>

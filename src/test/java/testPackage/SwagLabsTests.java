@@ -61,19 +61,20 @@ public class SwagLabsTests {
 
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(3));
 
-        for (int i=0; i < userInfo.length; i++) {
+
+        for (String[] strings : userInfo) {
             WebElement username = driver.findElement(By.id("user-name"));
-            username.sendKeys(userInfo[i][0]);
+            username.sendKeys(strings[0]);
 
             WebElement password = driver.findElement(By.id("password"));
-            password.sendKeys(userInfo[i][1]);
+            password.sendKeys(strings[1]);
 
             WebElement loginButton = driver.findElement(By.id("login-button"));
             loginButton.click();
 
-            String expectedError = userInfo[i][2];
+            String expectedError = strings[2];
             String actualError = driver.findElement(By.xpath("//h3[@data-test='error']")).getText();
-            Assert.assertEquals(actualError, expectedError, "Error message doesn't match expected text for user: " + userInfo[i][0]);
+            Assert.assertEquals(actualError, expectedError, "Error message doesn't match expected text for user: " + strings[0]);
 
             WebElement closeButton = driver.findElement(By.className("error-button"));
             closeButton.click();
