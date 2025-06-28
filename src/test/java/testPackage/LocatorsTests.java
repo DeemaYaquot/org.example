@@ -50,9 +50,8 @@ public class LocatorsTests {
         WebElement paragraph = driver.findElement(By.className("subheader"));
         System.out.println("Paragraph text: " + paragraph.getText());
 
-        WebElement loginButton = driver.findElement(By.className("radius"));
+        WebElement loginButton = driver.findElement(By.xpath("//i[@class='fa fa-2x fa-sign-in']"));
         loginButton.click();
-
         String expectedMessage = "You logged into a secure area!";
         String actualMessage = driver.findElement(By.id("flash")).getText();
         Assert.assertTrue(actualMessage.contains(expectedMessage), "Login message doesn't match expected text.");
@@ -62,27 +61,4 @@ public class LocatorsTests {
     public void tearDown() {
         driver.quit();
     }
-
-
-
-
-//    @Test
-//    public void testCreate() {
-//        System.out.println("Running \"Create\" test");
-//    }
-//
-//    @Test(dependsOnMethods = "testCreate")
-//    public void testRead() {
-//        System.out.println("Running \"Read\" test");
-//    }
-//
-//    @Test(dependsOnMethods = {"testCreate","testRead"})
-//    public void testUpdate() {
-//        System.out.println("Running \"Update\" test");
-//    }
-//
-//    @Test(priority = 1 , dependsOnMethods = "testCreate")
-//    public void testDelete() {
-//        System.out.println("Running \"Delete\" test");
-//    }
 }

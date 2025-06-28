@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b6eed70-59aa-441a-96d2-130ac7dc07e2" name="Changes" comment="Dependencies">
-      <change afterPath="$PROJECT_DIR$/src/test/java/testPackage/LocatorsTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="7b6eed70-59aa-441a-96d2-130ac7dc07e2" name="Changes" comment="Login Tests on &quot;https://the-internet.herokuapp.com/login&quot;">
+      <change afterPath="$PROJECT_DIR$/src/test/java/testPackage/SwagLabsTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testPackage/LocatorsTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testPackage/LocatorsTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +36,9 @@
     &quot;accountId&quot;: &quot;d2e47700-69e3-4fa4-b998-069751eb87f6&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -50,6 +52,10 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.git.unshallow": "true",
     "TestNG.LocatorsTests.executor": "Run",
+    "TestNG.LocatorsTests.testSuccessfulLogin.executor": "Run",
+    "TestNG.SwagLabsTests.executor": "Run",
+    "TestNG.SwagLabsTests.testFailedLogin.executor": "Run",
+    "TestNG.SwagLabsTests.testSuccessfulLogin.executor": "Run",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "D:/GitHub Repos/org.example",
@@ -85,8 +91,65 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LocatorsTests.testSuccessfulLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Locators" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testPackage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testPackage" />
+      <option name="MAIN_CLASS_NAME" value="testPackage.LocatorsTests" />
+      <option name="METHOD_NAME" value="testSuccessfulLogin" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SwagLabsTests.testFailedLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Locators" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testPackage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testPackage" />
+      <option name="MAIN_CLASS_NAME" value="testPackage.SwagLabsTests" />
+      <option name="METHOD_NAME" value="testFailedLogin" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SwagLabsTests.testSuccessfulLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Locators" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testPackage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testPackage" />
+      <option name="MAIN_CLASS_NAME" value="testPackage.SwagLabsTests" />
+      <option name="METHOD_NAME" value="testSuccessfulLogin" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.SwagLabsTests.testFailedLogin" />
+        <item itemvalue="TestNG.SwagLabsTests.testSuccessfulLogin" />
+        <item itemvalue="TestNG.LocatorsTests.testSuccessfulLogin" />
         <item itemvalue="TestNG.LocatorsTests" />
       </list>
     </recent_temporary>
@@ -123,7 +186,15 @@
       <option name="project" value="LOCAL" />
       <updated>1751125047060</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Login Tests on &quot;https://the-internet.herokuapp.com/login&quot;">
+      <option name="closed" value="true" />
+      <created>1751134436990</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1751134436990</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -140,6 +211,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2nd commit" />
     <MESSAGE value="Dependencies" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dependencies" />
+    <MESSAGE value="Login Tests on &quot;https://the-internet.herokuapp.com/login&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Login Tests on &quot;https://the-internet.herokuapp.com/login&quot;" />
   </component>
 </project>
