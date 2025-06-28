@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b6eed70-59aa-441a-96d2-130ac7dc07e2" name="Changes" comment="2nd commit" />
+    <list default="true" id="7b6eed70-59aa-441a-96d2-130ac7dc07e2" name="Changes" comment="2nd commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +16,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;DeemaYaquot&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/DeemaYaquot/org.example.git&quot;,
+    &quot;accountId&quot;: &quot;d2e47700-69e3-4fa4-b998-069751eb87f6&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -28,7 +43,7 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "D:/GitHub Repos/org.example",
-    "settings.editor.selected.configurable": "vcs.Git"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RunManager">
@@ -52,6 +67,23 @@
       <option name="presentableId" value="Default" />
       <updated>1751047730463</updated>
     </task>
+    <task id="LOCAL-00001" summary="2nd commit">
+      <option name="closed" value="true" />
+      <created>1751049638848</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1751049638848</updated>
+    </task>
+    <task id="LOCAL-00002" summary="2nd commit">
+      <option name="closed" value="true" />
+      <created>1751049799800</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1751049799800</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -64,5 +96,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2nd commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="2nd commit" />
   </component>
 </project>
