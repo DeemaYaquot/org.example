@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b6eed70-59aa-441a-96d2-130ac7dc07e2" name="Changes" comment="Login tests for Swag Labs">
-      <change beforePath="$PROJECT_DIR$/src/test/java/testPackage/SwagLabsTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testPackage/SwagLabsTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testPackage/Assignment2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testPackage/Assignment3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testPackage/Assignment4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +38,7 @@
   }
 }</component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
@@ -49,6 +52,9 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "TestNG.Assignment2.executor": "Run",
+    "TestNG.Assignment3.executor": "Run",
+    "TestNG.Assignment4.executor": "Run",
     "TestNG.LocatorsTests.executor": "Run",
     "TestNG.LocatorsTests.testSuccessfulLogin.executor": "Run",
     "TestNG.SwagLabsTests.executor": "Run",
@@ -145,10 +151,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.LocatorsTests" />
         <item itemvalue="TestNG.SwagLabsTests.testFailedLogin" />
         <item itemvalue="TestNG.SwagLabsTests.testSuccessfulLogin" />
         <item itemvalue="TestNG.LocatorsTests.testSuccessfulLogin" />
-        <item itemvalue="TestNG.LocatorsTests" />
       </list>
     </recent_temporary>
   </component>
@@ -200,7 +206,15 @@
       <option name="project" value="LOCAL" />
       <updated>1751146424234</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Login tests for Swag Labs">
+      <option name="closed" value="true" />
+      <created>1751146498772</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1751146498772</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
