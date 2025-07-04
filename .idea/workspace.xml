@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b6eed70-59aa-441a-96d2-130ac7dc07e2" name="Changes" comment="Login tests for Swag Labs">
-      <change afterPath="$PROJECT_DIR$/src/test/java/testPackage/Assignment2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testPackage/Assignment3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testPackage/Assignment4.java" afterDir="false" />
+    <list default="true" id="7b6eed70-59aa-441a-96d2-130ac7dc07e2" name="Changes" comment="Assignments">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testPackage/Assignment2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testPackage/Assignment2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testPackage/Assignment3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testPackage/Assignment3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testPackage/Assignment4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testPackage/AssignmentFour.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testPackage/SwagLabsTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testPackage/SwagLabsTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +56,7 @@
     "TestNG.Assignment2.executor": "Run",
     "TestNG.Assignment3.executor": "Run",
     "TestNG.Assignment4.executor": "Run",
+    "TestNG.AssignmentFour.executor": "Run",
     "TestNG.LocatorsTests.executor": "Run",
     "TestNG.LocatorsTests.testSuccessfulLogin.executor": "Run",
     "TestNG.SwagLabsTests.executor": "Run",
@@ -214,7 +216,15 @@
       <option name="project" value="LOCAL" />
       <updated>1751146498772</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Assignments">
+      <option name="closed" value="true" />
+      <created>1751539498864</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1751539498864</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -233,6 +243,7 @@
     <MESSAGE value="Dependencies" />
     <MESSAGE value="Login Tests on &quot;https://the-internet.herokuapp.com/login&quot;" />
     <MESSAGE value="Login tests for Swag Labs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Login tests for Swag Labs" />
+    <MESSAGE value="Assignments" />
+    <option name="LAST_COMMIT_MESSAGE" value="Assignments" />
   </component>
 </project>

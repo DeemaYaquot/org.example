@@ -26,8 +26,8 @@ public class Assignment3 {
     @Test
     public void testLogo() {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(3));
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//a[contains(@class, 'header_logoHorizontal__KABN4')]//img")));
-        WebElement logo = driver.findElement(By.xpath("//a[contains(@class, 'header_logoHorizontal__KABN4')]//img"));
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"__next\"]/div/main/article/div[1]/div[1]/div[2]/div/header/div/section[1]/a/img")));
+        WebElement logo = driver.findElement(By.xpath("//*[@id=\"__next\"]/div/main/article/div[1]/div[1]/div[2]/div/header/div/section[1]/a/img"));
         Assert.assertTrue(logo.isDisplayed(), "Logo is not visible on the page");
     }
     @AfterClass
