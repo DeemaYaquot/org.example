@@ -4,10 +4,13 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
+
+import java.util.List;
 
 public class LocatorsTests {
 
@@ -55,6 +58,22 @@ public class LocatorsTests {
         String expectedMessage = "You logged into a secure area!";
         String actualMessage = driver.findElement(By.id("flash")).getText();
         Assert.assertTrue(actualMessage.contains(expectedMessage), "Login message doesn't match expected text.");
+    }
+
+    @Test
+    public void testDropdown() {
+        driver.get("https://the-internet.herokuapp.com/dropdown");
+        WebElement dropdownMenu = driver.findElement(By.id("dropdown"));
+        Select dropdown = new Select(dropdownMenu);
+        dropdown.selectByVisibleText("Option 2");
+
+        List <WebElement> options = dropdown.getOptions();
+        for (WebElement option : options) {
+            System.out.println("Dropdown option: " + option.getText());
+        }
+
+        String selectedOption = dropdown.getFirstSelectedOption().getText();
+        Assert.assertEquals(selectedOption, "Option 2", "Selected option is not as expected.");
     }
 
     @AfterClass

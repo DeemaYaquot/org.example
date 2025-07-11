@@ -4,12 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b6eed70-59aa-441a-96d2-130ac7dc07e2" name="Changes" comment="Assignments">
+    <list default="true" id="7b6eed70-59aa-441a-96d2-130ac7dc07e2" name="Changes" comment="Assignments Update">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/ExcelUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testPackage/BookingTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testPackage/LoginWithExcel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testPackage/Assignment2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testPackage/Assignment2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testPackage/Assignment3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testPackage/Assignment3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testPackage/Assignment4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testPackage/AssignmentFour.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testPackage/SwagLabsTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testPackage/SwagLabsTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testPackage/LocatorsTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testPackage/LocatorsTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,18 +59,29 @@
     "TestNG.Assignment3.executor": "Run",
     "TestNG.Assignment4.executor": "Run",
     "TestNG.AssignmentFour.executor": "Run",
+    "TestNG.BookingTests.testDropdown.executor": "Run",
     "TestNG.LocatorsTests.executor": "Run",
+    "TestNG.LocatorsTests.testDropdown.executor": "Run",
     "TestNG.LocatorsTests.testSuccessfulLogin.executor": "Run",
+    "TestNG.LoginWithExcel.testLoginMultipleUsers.executor": "Run",
     "TestNG.SwagLabsTests.executor": "Run",
     "TestNG.SwagLabsTests.testFailedLogin.executor": "Run",
     "TestNG.SwagLabsTests.testSuccessfulLogin.executor": "Run",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "D:/GitHub Repos/org.example",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\GitHub Repos\org.example\src\test\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.LoginWithExcel.testLoginMultipleUsers">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="org.example" />
       <method v="2">
@@ -79,6 +92,24 @@
       <module name="org.example" />
       <option name="filePath" />
       <method v="2" />
+    </configuration>
+    <configuration name="BookingTests.testDropdown" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Locators" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testPackage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testPackage" />
+      <option name="MAIN_CLASS_NAME" value="testPackage.BookingTests" />
+      <option name="METHOD_NAME" value="testDropdown" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="LocatorsTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Locators" />
@@ -97,7 +128,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LocatorsTests.testSuccessfulLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LocatorsTests.testDropdown" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Locators" />
       <extension name="coverage">
         <pattern>
@@ -107,7 +138,25 @@
       </extension>
       <option name="PACKAGE_NAME" value="testPackage" />
       <option name="MAIN_CLASS_NAME" value="testPackage.LocatorsTests" />
-      <option name="METHOD_NAME" value="testSuccessfulLogin" />
+      <option name="METHOD_NAME" value="testDropdown" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginWithExcel.testLoginMultipleUsers" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Locators" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testPackage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testPackage" />
+      <option name="MAIN_CLASS_NAME" value="testPackage.LoginWithExcel" />
+      <option name="METHOD_NAME" value="testLoginMultipleUsers" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -133,30 +182,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SwagLabsTests.testSuccessfulLogin" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Locators" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testPackage.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testPackage" />
-      <option name="MAIN_CLASS_NAME" value="testPackage.SwagLabsTests" />
-      <option name="METHOD_NAME" value="testSuccessfulLogin" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.LoginWithExcel.testLoginMultipleUsers" />
+        <item itemvalue="TestNG.BookingTests.testDropdown" />
+        <item itemvalue="TestNG.LocatorsTests.testDropdown" />
         <item itemvalue="TestNG.LocatorsTests" />
         <item itemvalue="TestNG.SwagLabsTests.testFailedLogin" />
-        <item itemvalue="TestNG.SwagLabsTests.testSuccessfulLogin" />
-        <item itemvalue="TestNG.LocatorsTests.testSuccessfulLogin" />
       </list>
     </recent_temporary>
   </component>
@@ -224,7 +256,15 @@
       <option name="project" value="LOCAL" />
       <updated>1751539498864</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Assignments Update">
+      <option name="closed" value="true" />
+      <created>1751656053748</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1751656053748</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -244,6 +284,7 @@
     <MESSAGE value="Login Tests on &quot;https://the-internet.herokuapp.com/login&quot;" />
     <MESSAGE value="Login tests for Swag Labs" />
     <MESSAGE value="Assignments" />
-    <option name="LAST_COMMIT_MESSAGE" value="Assignments" />
+    <MESSAGE value="Assignments Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Assignments Update" />
   </component>
 </project>
