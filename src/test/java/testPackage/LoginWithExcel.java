@@ -22,9 +22,9 @@ public class LoginWithExcel {
 
     @BeforeClass
     public void setUp(){
+        driver =  new ChromeDriver();
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--incognito");
-        driver =  new ChromeDriver(options);
         driver.get("https://www.saucedemo.com/v1/");
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
@@ -52,7 +52,7 @@ public class LoginWithExcel {
             Assert.assertEquals(loginPage.getActualMessage(), expectedMessage, "Wrong error message for user: " + username);
 
             loginPage.clickOnCloseButton();
-            loginPage.refreshPage();
+            //loginPage.refreshPage();
         }
     }
 

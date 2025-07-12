@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b6eed70-59aa-441a-96d2-130ac7dc07e2" name="Changes" comment="Assignments Update">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/ExcelUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testPackage/BookingTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testPackage/LoginWithExcel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testPackage/LocatorsTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testPackage/LocatorsTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testPackage/BookingTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testPackage/BookingTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testPackage/LoginWithExcel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testPackage/LoginWithExcel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +77,7 @@
       <recent name="D:\GitHub Repos\org.example\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.LoginWithExcel.testLoginMultipleUsers">
+  <component name="RunManager" selected="TestNG.BookingTests.testDropdown">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="org.example" />
       <method v="2">
@@ -184,8 +180,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.LoginWithExcel.testLoginMultipleUsers" />
         <item itemvalue="TestNG.BookingTests.testDropdown" />
+        <item itemvalue="TestNG.LoginWithExcel.testLoginMultipleUsers" />
         <item itemvalue="TestNG.LocatorsTests.testDropdown" />
         <item itemvalue="TestNG.LocatorsTests" />
         <item itemvalue="TestNG.SwagLabsTests.testFailedLogin" />
@@ -264,7 +260,15 @@
       <option name="project" value="LOCAL" />
       <updated>1751656053748</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Assignments Update">
+      <option name="closed" value="true" />
+      <created>1752240603025</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1752240603025</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
